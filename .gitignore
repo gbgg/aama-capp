@@ -1,3 +1,9 @@
+obsolete/
+
+# cappuccino
+Frameworks/
+Resources/
+
 # Xcode
 .DS_Store
 build/

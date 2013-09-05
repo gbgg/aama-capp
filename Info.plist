@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPBundleName</key>
+	<string>Aama</string>
+	<!-- <key>Main cib file base name</key> -->
+	<!-- <string>MainMenu.cib</string> -->
+	<key>CPBundleVersion</key>
+	<string>Build 61</string>
+	<key>CPBundleShortVersionString</key>
+	<string>0.4.9</string>
+	<key>CPHumanReadableCopyright</key>
+	<string>Copyright 2010,2011 Gene Gragg, Gregg Reynolds</string>
+	<key>CPBundleIconFile</key>
+	<string>Workstation_by_Artdesigner.lv.png</string>
+	<key>AamaHelp</key>
+	<string>Resources/AamaHelp.html</string>
+	<key>CPPrincipalClass</key>
+	<string>AamaApplication</string>
+	<!-- <string>CPApplication</string> -->
+	<key>CPApplicationDelegateClass</key>
+	<string>AppDelegate</string>
+	<key>LPCrashReporterLoggingURL</key>
+	<string>dev@mobileink.com</string>
+	<key>CPBundleDocumentTypes</key>
+	<array>
+	  <dict>
+	    <key>CPDocumentClass</key>
+	    <string>PdgmDocument</string>
+	    <key>CPBundleTypeName</key>
+	    <string>paradigm</string>
+	    <key>CPBundleTypeRole</key>
+	    <string>Editor</string>
+	    <key>CFBundleTypeExtensions</key>
+	    <array>
+	      <string>pdgm</string>
+	    </array>
+	  </dict>
+	  <dict>
+	    <key>CPDocumentClass</key>
+	    <string>CatalogManager</string>
+	    <key>CPBundleTypeName</key>
+	    <string>catalog</string>
+	    <key>CPBundleTypeRole</key>
+	    <string>Editor</string>
+	    <key>CFBundleTypeExtensions</key>
+	    <array>
+	      <string>ctlg</string>
+	    </array>
+	  </dict>
+	  <dict>
+	    <key>CPDocumentClass</key>
+	    <string>MorphPropertyInspector</string>
+	    <key>CPBundleTypeName</key>
+	    <string>morfinspector</string>
+	    <key>CPBundleTypeRole</key>
+	    <string>Editor</string>
+	    <key>CFBundleTypeExtensions</key>
+	    <array>
+	      <string>morf</string>
+	    </array>
+	  </dict>
+	  <dict>
+	    <key>CPDocumentClass</key>
+	    <string>ScriptDocument</string>
+	    <key>CPBundleTypeName</key>
+	    <string>script</string>
+	    <key>CPBundleTypeRole</key>
+	    <string>Editor</string>
+	    <key>CPBundleTypeExtensions</key>
+	    <array>
+	      <string>scrp</string>
+	    </array>
+	  </dict>
+	</array>
+</dict>
+</plist>
